@@ -12,9 +12,11 @@ def guess_name():
 		
 		age = random.randint(15, 40)
 		guess = input("Is your age " + str(age) + "? y/n" )
-		if guess == y:
-			print(name + " is " + age + " years old."
+		if guess == "y":
+			print(name + " is " + str(age) + " years old.")
 			guess_right = True
-		elif guess == n:
+		elif guess == "n":
 			print("Rats.")
 	return
+
+main()
