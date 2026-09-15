@@ -20,3 +20,18 @@ To push, you must use git push -u origin main
 
 This pushes the commit from your personal repo on the computer, to the remote online repo in the GitHub server.
 
+
+
+Date: 9.15.2026 - Subject: Github Branches
+
+Open a github branch by typing "git branch <branch-name>"
+switch to the branch by typing "git switch <branch-name?"
+manipulate all data via add, commit, and push.
+
+to push a branch you need to do "git push --set-upstream origin <branch-name>"
+on the remote repo, you need to make a pull request so the repo can pull your branch to the main branch.
+Someone needs to check and resolve all merge conflicts before finally having the main branch pull the branch.
+
+
+
+
